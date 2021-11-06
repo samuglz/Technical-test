@@ -56,11 +56,6 @@ const loadMoreImages = () => {
 
 <style scoped>
 .gallery-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 18rem));
-  place-items: center;
-  row-gap: 10px;
-  column-gap: 10px;
-  padding: 10px 10px;
+  @apply grid grid-cols-2 md:grid-cols-auto-fit gap-2 p-2 place-content-center
 }
 </style>
