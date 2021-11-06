@@ -12,8 +12,11 @@
         />
         <Observer @intersect="loadMoreImages" />
     </div>
-    <div v-if="loading">
-        Cargando
+    <div
+        v-if="loading"
+        class="w-screen h-screen flex justify-center items-center"
+    >
+        <Spinner />
     </div>
 </template>
 
@@ -24,6 +27,7 @@ import {
 import { useFetch } from '@/hooks';
 import ImageCard from '@/components/ImageCard.vue';
 import Observer from '@/components/Observer.vue';
+import Spinner from '@/components/Spinner.vue';
 
 const startImage = ref(0);
 const limit = ref(20);
