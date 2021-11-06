@@ -8,7 +8,7 @@
 
 <style scoped>
 .spinner-container {
-  @apply flex justify-center items-center w-72 h-72
+  @apply flex justify-center items-center w-20 h-20 md:w-72 md:h-72
 }
 
 .spiner {
