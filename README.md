@@ -1,4 +1,4 @@
-# azertium-test
+# Technical test
 
 ### Task requirements
 Feel free to spend all the time you want on the exercise as long as the following requirements are met.
